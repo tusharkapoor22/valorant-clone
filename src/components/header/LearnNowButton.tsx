@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const PlayNowButton: FC = () => (
+const LearnNowButton: FC = () => (
   <button
     className="rounded-xl font-semibold text-[13px] px-4 py-2 leading-4 tracking-wider
     hidden lg:block"
@@ -13,4 +13,4 @@ const PlayNowButton: FC = () => (
   </button>
 );
 
-export default PlayNowButton;
+export default LearnNowButton;

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import RiotButton from "../components/RiotButton";
+import RiotButton from "../components/ArcadeBowButton";
 import Section from "../components/Section";
 import SectionHeadMotion from "../components/SectionHeadMotion";
 import Simulation from "../components/Images/Simulation.png";

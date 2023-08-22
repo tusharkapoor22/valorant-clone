@@ -1,10 +1,10 @@
 import { FC } from "react";
-import RiotButton from "../components/RiotButton";
+import RiotButton from "../components/ArcadeBowButton";
 import Section from "../components/Section";
 import Polygons from "../components/section-we-are/Polygons";
 import RedSquare from "../components/section-we-are/RedSquare";
 import SectionHeadMotion from "../components/SectionHeadMotion";
-import gamification from "../components/Images/gamification.png"
+import gamification from "../components/Images/gamification.png";
 
 const WeAre: FC = () => (
   <Section blackVLine>
@@ -85,9 +85,7 @@ const WeAre: FC = () => (
                   />
                   
                 </video> */}
-                <img src={gamification}           
-
-alt="Logo" />
+                <img src={gamification} alt="Logo" />
 
                 {/* Overlay Button */}
                 {/* <div className="absolute w-full h-full top-0 left-0 flex items-center justify-center">

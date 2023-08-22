@@ -1,13 +1,13 @@
 import { FC } from "react";
-import RiotButton from "../components/RiotButton";
+import RiotButton from "../components/ArcadeBowButton";
 import Section from "../components/Section";
 import BackgroundVideo from "../components/section-hero/BackgroundVideo";
 import CornerTri from "../components/section-hero/CornerTri";
-import ValorantLogo from "../components/ValorantLogo";
+import ValorantLogo from "../components/LearnMathsLogo";
 
 const Hero: FC = () => {
   return (
-    <Section >
+    <Section>
       <BackgroundVideo />
       <CornerTri />
 
@@ -31,7 +31,6 @@ const Hero: FC = () => {
             style={{ filter: "drop-shadow(0 0 0.75em rgba(0,0,0,.3))" }}
           >
             <ValorantLogo />
-           
           </div>
           <p
             className="font-dinw05
@@ -54,7 +53,6 @@ const Hero: FC = () => {
           <RiotButton>Play Free</RiotButton>
         </div>
       </div>
-      
     </Section>
   );
 };

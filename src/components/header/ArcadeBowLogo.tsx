@@ -1,7 +1,7 @@
 import { FC } from "react";
-import RiotLogoSvg from "../RiotLogo";
+import ArcadeBowLogoSvg from "../ArcadeBowLogo";
 
-const RiotLogo: FC = () => (
+const ArcadeBowLogo: FC = () => (
   <div className="w-24 h-8 lg:w-19 lg:h-6 cursor-pointer">
     <span
       className="fill-[#f9f9f9] min-w-fit
@@ -9,9 +9,9 @@ const RiotLogo: FC = () => (
     h-7 lg:h-auto
     hover:fill-[#eb0029]"
     >
-      <RiotLogoSvg />
+      <ArcadeBowLogoSvg />
     </span>
   </div>
 );
 
-export default RiotLogo;
+export default ArcadeBowLogo;
