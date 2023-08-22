@@ -21,9 +21,9 @@ function App() {
           <News />
           <Act2 />
           <WeAre />
-          <Agents />
+          {/* <Agents />
           <Maps />
-          <Footer />
+          <Footer /> */}
         </Suspense>
       </main>
     </>

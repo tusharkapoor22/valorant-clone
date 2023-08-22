@@ -7,7 +7,7 @@ import ValorantLogo from "../components/ValorantLogo";
 
 const Hero: FC = () => {
   return (
-    <Section>
+    <Section >
       <BackgroundVideo />
       <CornerTri />
 
@@ -31,13 +31,14 @@ const Hero: FC = () => {
             style={{ filter: "drop-shadow(0 0 0.75em rgba(0,0,0,.3))" }}
           >
             <ValorantLogo />
+           
           </div>
           <p
             className="font-dinw05
                 text-lg lg:text-base
                 my-4 lg:mb-9 lg:mt-0"
           >
-            A 5v5 character-based tactical shooter
+            ArcadeBow teaches maths via games
           </p>
         </div>
 
@@ -53,6 +54,7 @@ const Hero: FC = () => {
           <RiotButton>Play Free</RiotButton>
         </div>
       </div>
+      
     </Section>
   );
 };

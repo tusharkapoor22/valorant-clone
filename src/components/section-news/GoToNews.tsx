@@ -7,7 +7,7 @@ const GoToNews: FC = () => (
     mb-5 lg:mb-0"
   >
     <p className="font-dinw05Bold uppercase text-red text-base mr-4 -tracking-wide">
-      GO TO NEWS PAGE
+      See More
     </p>
     <span className="group-hover:translate-x-2.5 ease-out duration-300 w-6 h-6">
       {/* Animated Arrow */}

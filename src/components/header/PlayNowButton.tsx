@@ -9,7 +9,7 @@ const PlayNowButton: FC = () => (
         "linear-gradient(135deg, rgb(255, 51, 66) 0%, rgb(255, 48, 64) 0.01%, rgb(255, 125, 102) 100%)",
     }}
   >
-    PLAY NOW
+    LEARN NOW
   </button>
 );
 

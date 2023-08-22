@@ -2,7 +2,7 @@ import { FC } from "react";
 import RiotButton from "../components/RiotButton";
 import Section from "../components/Section";
 import SectionHeadMotion from "../components/SectionHeadMotion";
-import Act2Img from "../assets/img/Act2.webp";
+import Simulation from "../components/Images/Simulation.png";
 
 const Act2: FC = () => {
   return (
@@ -15,7 +15,7 @@ const Act2: FC = () => {
             w-full md:w-[120%] lg:w-[110%] xl:w-full
             h-[110%] md:h-[120%] lg:h-[120%] xl:h-[120%]
             "
-          src={Act2Img}
+          src={Simulation}
           alt="key art"
         />
       </div>
@@ -31,16 +31,16 @@ const Act2: FC = () => {
             className="flex flex-col-reverse relative
           lg:ml-[1.875rem] lg:mt-[calc(5vw+0.625rem)] lg:mb-[5vw] lg:pb-10 lg:pt-[1.375rem]"
           >
-            <RiotButton>ACT II OVERVIEW</RiotButton>
+            <RiotButton>WORKING OVERVIEW</RiotButton>
             <h2 className="absolute font-dinw05 text-white tracking-[0.35em] top-0 my-4 leading-tight text-xl">
-              EPISODE_4//ACT II//YR 2
+              Learn By Implementation
             </h2>
             <h2
               className="overflow-hidden font-tungstenBold text-white pt-[3.125rem] mt-2 mb-9 pb-[0.35rem] leading-[0.94]
                 text-[3.4375rem] md:text-[6.25rem] lg:text-[7.5rem]
                 "
             >
-              <SectionHeadMotion>DISRUPTION</SectionHeadMotion>
+              <SectionHeadMotion>SIMULATION</SectionHeadMotion>
             </h2>
           </div>
         </div>

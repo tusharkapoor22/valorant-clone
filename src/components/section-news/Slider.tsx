@@ -1,31 +1,31 @@
 import { FC, useEffect, useRef, useState } from "react";
-import SliderImg1 from "./slider-img/Slider1.webp";
-import SliderImg2 from "./slider-img/Slider2.webp";
-import SliderImg3 from "./slider-img/Slider3.webp";
+import SliderImg1 from "../Images/Algebra.png.png";
+import SliderImg2 from "../Images/decimal.png.png";
+import SliderImg3 from "../Images/geometry.png.png";
 import { motion } from "framer-motion";
 
 const news: News[] = [
   {
     id: 1,
     img: SliderImg1,
-    author: "dev",
-    date: "03/08/22",
-    title: "Performance Boost: VALORANT’s Global Invalidation",
+    author: "Fighter Aircraft",
+    date: "July 203",
+    title: "Aircraft Simulation Based on Concepts of Algebra",
   },
   {
     id: 2,
     img: SliderImg2,
-    author: "Announcements",
-    date: "03/05/22",
+    author: "Medieval Siege Weapons",
+    date: "July 2023",
     title:
-      "Riot is Donating Battle Pass Sales to Humanitarian Relief in Eastern Europe",
+      "Medieval Siege Weapons To Learn The Basics Of Decimals",
   },
   {
     id: 3,
     img: SliderImg3,
-    author: "Game Updates",
-    date: "03/03/22",
-    title: "Deep Dive Into 4.04 Controller Agents Changes",
+    author: "Medieval Siege Weapons",
+    date: "July 2023",
+    title: "Learn The Use Of Angles While Working On Mighty Canons",
   },
 ];
 

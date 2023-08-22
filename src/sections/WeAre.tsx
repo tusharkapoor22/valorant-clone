@@ -4,6 +4,7 @@ import Section from "../components/Section";
 import Polygons from "../components/section-we-are/Polygons";
 import RedSquare from "../components/section-we-are/RedSquare";
 import SectionHeadMotion from "../components/SectionHeadMotion";
+import gamification from "../components/Images/gamification.png"
 
 const WeAre: FC = () => (
   <Section blackVLine>
@@ -18,7 +19,7 @@ const WeAre: FC = () => (
                 leading-[0.94] md:leading-[0.86]
                 lg:pl-[8.5%]"
         >
-          <SectionHeadMotion>WE ARE VALORANT</SectionHeadMotion>
+          <SectionHeadMotion>GAMIFICATION</SectionHeadMotion>
         </h2>
 
         <div className="relative lg:flex lg:flex-wrap lg:items-center">
@@ -46,7 +47,7 @@ const WeAre: FC = () => (
               <RedSquare className="bottom-0 -left-1/3 w-2 h-2" />
             </p>
             <div className="text-center mt-12 lg:relative lg:-left-1/4 xl:left-0">
-              <RiotButton accentBorder>Learn The Game</RiotButton>
+              <RiotButton accentBorder>PLAY THE DEMO</RiotButton>
             </div>
           </div>
 
@@ -70,7 +71,7 @@ const WeAre: FC = () => (
 
               {/* Video Container */}
               <div className="relative group cursor-pointer lg:mt-7">
-                <video
+                {/* <video
                   preload="true"
                   muted
                   loop
@@ -82,10 +83,14 @@ const WeAre: FC = () => (
                     src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltefd45731d8f9d9df/6217f2ea910a6c613c73168c/VALORANT_PLAY22_16x9_Target4_v005.mp4"
                     type="video/mp4"
                   />
-                </video>
+                  
+                </video> */}
+                <img src={gamification}           
+
+alt="Logo" />
 
                 {/* Overlay Button */}
-                <div className="absolute w-full h-full top-0 left-0 flex items-center justify-center">
+                {/* <div className="absolute w-full h-full top-0 left-0 flex items-center justify-center">
                   <span className="relative inline-block w-[4.25rem] h-[4.25rem] border bg-red/30 overflow-hidden">
                     <svg
                       viewBox="0 0 72 72"
@@ -103,13 +108,13 @@ const WeAre: FC = () => (
                                     "
                     ></div>
                   </span>
-                </div>
+                </div> */}
 
                 {/* Aspect Ratio Adjustment */}
                 <div className="lg:pt-[55%]"></div>
 
                 <span className="absolute top-5 -left-[3.75%] px-[3.75%] bg-red text-white font-dinw1g font-bold">
-                  Gameplay
+                  PRODUCT DEMO
                 </span>
               </div>
               <div

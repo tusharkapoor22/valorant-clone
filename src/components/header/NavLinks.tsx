@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const links = ["game info", "media", "news", "leaderboards", "more"];
+const links = ["Home", "Pricing", "Our Mission", "About Us", "Contact Us"];
 
 const NavLinks: FC = () => (
   <nav

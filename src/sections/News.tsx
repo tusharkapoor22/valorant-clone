@@ -36,7 +36,7 @@ const News: FC = () => {
             text-[3.44rem] md:text-[6.25rem] lg:text-[7.5rem]
             py-1.5 lg:py-0"
           >
-            <SectionHeadMotion>LATEST NEWS</SectionHeadMotion>
+            <SectionHeadMotion>MODULES</SectionHeadMotion>
           </h2>
           <div className="hidden lg:flex">
             <GoToNews />

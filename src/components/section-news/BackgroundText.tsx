@@ -26,7 +26,7 @@ const BackgroundText: FC = () => {
           className="block
     ml-44 lg:ml-64"
         >
-          VALORANT
+          
         </span>
       </motion.h2>
     </div>
